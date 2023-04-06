@@ -41,8 +41,7 @@ int main(){
 
 	//Error 4 is not in Array 
 	//assert(LinearSearch(Array, Array.size()-1, 4) > -1);
-    	//assert(LinearSearch(Array, Array.size()-1, 4) > -1);
-
+    	
 	//ok 8 is in Array
 	assert(LinearSearch(Array, Array.size()-1, 8) > -1);
 
