@@ -40,11 +40,8 @@ int main(){
 	std::vector<int> Array{2,3,5,1,2,7,8,9,15};
 
 	//Error 4 is not in Array 
-<<<<<<< HEAD
 	//assert(LinearSearch(Array, Array.size()-1, 4) > -1);
-=======
     	//assert(LinearSearch(Array, Array.size()-1, 4) > -1);
->>>>>>> origin/main
 
 	//ok 8 is in Array
 	assert(LinearSearch(Array, Array.size()-1, 8) > -1);
