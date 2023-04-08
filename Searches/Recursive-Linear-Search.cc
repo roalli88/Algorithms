@@ -2,10 +2,15 @@
 #include <cstdint>
 #include <cstdlib>
 #include <vector>
+
+
 /* 
  * This program assumes an array of maximum size 9223372036854775807
- *
- *
+ * haystack is the target array
+ * n is the size of the array
+ * idx is the position within the array for each loop
+ * needle is the item to be searched for in the array
+ * 
  * */
 
 
